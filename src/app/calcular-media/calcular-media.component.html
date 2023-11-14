@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col-2">
+    <label for="" class="form-label">Nota AC1</label>
+    <input type="number" class= "form-control" [(ngModel)]="Ac1">
+  </div>
+  <div class="col-2">
+    <label for="" class="form-label">Nota AC2</label>
+    <input type="number" class="form-control" [(ngModel)]="Ac2" placeholder=" ">
+  </div>
+  <div class="col-2">
+    <label for="" class="form-label">Nota AG</label>
+    <input type="number" class="form-control" [(ngModel)]="AG" placeholder=" " >
+  </div>
+  <div class="col-2">
+    <label for="" class="form-label">Nota AF</label>
+    <input type="number" class="form-control" [(ngModel)]="AF" >
+  </div>
+  <div class="col-2">
+    <button class="btn btn-primary" style="margin-top: 30px;" (click)="calcMedia()">Calcular</button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-2">
+      <label for="" class="form-label">Média Final</label>
+      <input type="number" class="form-control" disabled [ngModel]="resultado">
+  </div>
+</div>
+

@@ -1,0 +1,49 @@
+<div class="row" style="margin-top: 10px;">
+  <div class="col-2">
+    <label for="" class="form-label">Nome:</label>
+  </div>
+  <div class="col-2">
+    <input type="text" class="form-control" [(ngModel)]="nome">
+  </div>
+</div>
+<div class="row" style="margin-top: 10px;">
+  <div class="col-2">
+    <label for="" class="form-label">Sexo:</label>
+  </div>
+  <div class="col-2">
+    <select name="" id="" class="form-select" [(ngModel)]="sexo">
+      <option selected value="">Selecionar Gênero</option>
+      <option value="M">Masculino</option>
+      <option value="F">Feminino</option>
+    </select>
+  </div>
+</div>
+<div class="row" style="margin-top: 10px;">
+  <div class="col-2">
+    <label for="" class="form-label">Idade:</label>
+  </div>
+  <div class="col-2">
+      <input type="number" class="form-control" [(ngModel)]="idade">
+  </div>
+</div>
+<div class="row" style="margin-top: 10px;">
+  <div class="col-2">
+    <label for="" class="form-label">Valor do Veiculo:</label>
+  </div>
+  <div class="col-2">
+    <input type="number" class="form-control" [(ngModel)]="valorAuto">
+  </div>
+</div>
+<div class="row">
+  <div class="col-2">
+    <button class="btn btn-primary" (click)="calcApoli()">Calcular</button>
+  </div>
+</div>
+<div class="row" style="margin-top: 10px;">
+  <div class="col-2">
+    <label for="" class="form-label">Valor da Apólice:</label>
+  </div>
+  <div class="col-2">
+    <input type="text" class="form-control" [(ngModel)]="valorApolice" disabled>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+
+    <div class="row" style="margin-top: 20px;">
+      <div class="col-2">
+        <label for="" class="form-label">RA:</label>
+      </div>
+      <div class="col-2">
+        <input class="form-control" type="text" [(ngModel)]="aluno.RA" />
+      </div>
+    </div>
+    <div class="row" style="margin-top: 20px">
+      <div class="col-2">
+        <label for="" class="form-label">Nome:</label>
+      </div>
+      <div class="col-2">
+        <input type="text" class="form-control" [(ngModel)]="aluno.name" />
+      </div>
+    </div>
+
+    <div class="row" style="margin-top: 20px">
+      <div class="col-2">
+        <label for="" class="form-label">Email:</label>
+      </div>
+      <div class="col-2">
+        <input type="text" class="form-control" [(ngModel)]="aluno.email" />
+      </div>
+    </div>
+    <div class="row" style="margin-top: 20px">
+      <div class="col-2">
+        <label for="" class="form-label">Celular:</label>
+      </div>
+      <div class="col-2">
+        <input type="text" class="form-control" [(ngModel)]="aluno.celular" />
+      </div>
+    </div>
+    <div class="row" style="margin-top: 40px;">
+      <div class="col-2">
+        <button class="btn btn-primary" (click)="cadastro()">Cadastrar</button>
+      </div>
+    </div>
